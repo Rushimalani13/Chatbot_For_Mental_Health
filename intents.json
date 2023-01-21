@@ -1,0 +1,144 @@
+
+{
+  "intents": [
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I feel overwhelmed",
+        "I am feeling anxious",
+        "I am feeling depressed",
+        "I am struggling with my mental health"
+      ],
+      "responses": [
+        "I'm here to listen and support you. Can you tell me more about what's been going on?",
+        "It sounds like you're going through a tough time. How can I help you feel better?"
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "How can I cope with my anxiety?",
+        "What can I do to feel better?",
+        "What are some ways to manage depression?"
+      ],
+      "responses": [
+        "Some coping strategies for anxiety include deep breathing exercises, mindfulness practices, and physical activity. Have you tried any of these?",
+        "There are many ways to manage depression, such as therapy, medication, and self-care practices. Can we explore which options might be best for you?"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "Can you recommend a therapist?",
+        "Where can I find a support group?",
+        "What are some hotlines I can call?"
+      ],
+      "responses": [
+        "There are many resources available for mental health support. I can provide you with a list of local therapists, support groups, and hotlines. Would you like me to do that?",
+        "Please know that you are not alone. There are many resources available for help, I can give you some information about them if you want."
+      ]
+    },
+    {
+      "tag": "relaxation",
+      "patterns": [
+        "Can you help me relax?",
+        "I need to calm down",
+        "I'm feeling stressed"
+      ],
+      "responses": [
+        "Sure, some relaxation techniques include deep breathing exercises, meditation, and yoga. Would you like me to guide you through one of these?",
+        "Of course, some ways to relax include listening to calming music, reading a book, or taking a warm bath. What can I do to help you relax right now?"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "I am in danger",
+        "I am thinking of harming myself",
+        "I am having suicidal thoughts"
+      ],
+      "responses": [
+        "If you are in danger or thinking of harming yourself, please call emergency services immediately. If you are in the US, you can call 911. If you are in another country, please call the emergency services number for your location.",
+        "Please know that help is available. If you are thinking about harming yourself or are in crisis, please call emergency services immediately or reach out to the National Suicide Prevention Lifeline in the US at 1-800-273-TALK (8255)."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey"
+      
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
